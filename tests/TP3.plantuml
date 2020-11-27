@@ -99,7 +99,7 @@ title __JAVA's Class Diagram__\n
   PizzaFactory <|-- PizzaFactoryStrasbourg
   Pizza <|-- PizzaFromageStyleBrest
   Pizza <|-- PizzaFromageStyleStrasbourg
-  Pizzeria --> "1" PizzaFactory : fabrique
+  Pizzeria o-- PizzaFactory : fabrique
   Pizzeria <|-- PizzeriaBrest
   Pizzeria <|-- PizzeriaStrasbourg
 
