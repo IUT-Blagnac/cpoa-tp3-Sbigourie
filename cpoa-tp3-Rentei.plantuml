@@ -1,89 +1,89 @@
 @startuml
 
-title __CPOA-TP3-RENTEI's Class Diagram__\n
+title __CPOA-TP3-Sbigoure's Class Diagram__\n
 
-  namespace  {
+
     abstract class Pizza {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaCheeseStyleBrest {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaCheeseStyleStrasbourg {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaFactory {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaFactoryBrest {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaFactoryStrasbourg {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaGrecque {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaGrequeStyleBrest {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaPoivronStyleStrasbourg {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzaPoivrons {
     }
-  }
+
   
 
-  namespace  {
+
     class Pizzeria {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzeriaBrest {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzeriaFactory {
     }
-  }
+
   
 
-  namespace  {
+
     class PizzeriaStrasbourg {
     }
-  }
+
   
 
   PizzaFactoryBrest -up-|> PizzaFactory
