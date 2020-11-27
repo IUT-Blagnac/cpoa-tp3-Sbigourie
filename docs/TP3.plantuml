@@ -91,6 +91,11 @@ title __JAVA's Class Diagram__\n
 
 
   
+    Pizzeria ..> Pizza
+    PizzeriaFactory ..> Pizzeria
+    PizzaFactory ..> Pizza
+    PizzaTestDrive ..> Pizza
+    PizzaTestDrive ..> PizzeriaFactory
 
   PizzaFactoryBrest -up-|> PizzaFactory
   PizzaFactoryStrasbourg -up-|> PizzaFactory

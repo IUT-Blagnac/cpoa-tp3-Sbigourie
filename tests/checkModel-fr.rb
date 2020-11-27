@@ -7,7 +7,7 @@
 # -------------------
 
 require "minitest/autorun"
-MODEL_NAME = ARGV[0] ? ARGV[0] : "TP1.plantuml"
+MODEL_NAME = ARGV[0] ? ARGV[0] : "TP3.plantuml"
 
 module MiniTest
   class Unit
