@@ -95,12 +95,12 @@ title __JAVA's Class Diagram__\n
     PizzaTestDrive ..> Pizza
     PizzaTestDrive ..> PizzeriaFactory
 
-  PizzaFactoryBrest --|> PizzaFactory
+  PizzaFactory <|-- PizzaFactoryBrest
   PizzaFactory <|-- PizzaFactoryStrasbourg
   Pizza <|-- PizzaFromageStyleBrest
-  PizzaFromageStyleStrasbourg --|> Pizza
+  Pizza <|-- PizzaFromageStyleStrasbourg
   Pizzeria o-- PizzaFactory : fabrique
-  PizzeriaBrest --|> Pizzeria
+  Pizzeria <|-- PizzeriaBrest
   Pizzeria <|-- PizzeriaStrasbourg
 
 
