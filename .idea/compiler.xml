@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="cpoa-tp3-Rentei" target="7" />
+      <module name="cpoa-tp3-Rentei" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
